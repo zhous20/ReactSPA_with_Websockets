@@ -1,0 +1,153 @@
+.posts {
+  width: 900px;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  min-height: 80rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: column; 
+}
+
+.inner-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-body {
+  display: flex;
+  flex-direction: column;
+  width: 566px;
+  height: auto;
+  box-shadow: 0 4px 4px 0 rgba(77, 58, 243, 0.5);
+  background-color: #000000;
+  margin-left: 20rem;
+  margin-bottom: 15px;
+}
+
+.post-body:hover { 
+  background-color:#000000;
+  border: #ffffff;
+}
+
+.picture {
+  margin-left: 24px;
+  margin-top: 17px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 19px;
+  margin-bottom: 15px;
+  height: auto;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.problem {
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 20%;
+  height: auto;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 14px;
+  color: #ffffff;
+  border-bottom-style: ridge;
+  border-color: #fffc3c;
+  border-width: 2px;
+  text-align: center;
+}
+
+.priority {
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 20%;
+  height: auto;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 14px;
+  color: #ffffff;
+  border-bottom-style: ridge;
+  border-color: #733A3A;
+  border-width: 3px;
+  text-align: center;
+}
+
+.post {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  width: 445px;
+  height: auto;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.container {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  padding: 10px;
+}
+
+.one {
+  width: 15%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  border-right-style: double;
+  border-color: #fff;
+  vertical-align: center;
+}
+
+.two {
+  height: 100%;
+}
+
+.checkbox {
+  color: white;
+  display: inline-block;
+  padding-right: 15px;
+  white-space: nowrap;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+.one input {
+  vertical-align: center;
+}
+.one label span {
+  vertical-align: middle;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+h2{
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Console", Courier, monospace;
+}
+h3{
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Console", Courier, monospace;
+}
+.pp{
+  display: flex;
+  flex-direction: row;
+}

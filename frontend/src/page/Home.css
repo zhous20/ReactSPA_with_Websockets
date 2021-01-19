@@ -1,0 +1,14 @@
+.header {
+    padding: 40px; 
+    text-align: center; 
+    background: #ffffff;
+    color: #000000; 
+}
+.header h1 {
+    font-size: 45px;
+}
+.parent{
+height: 80%;
+align-items: center;
+justify-content: center ;
+}
